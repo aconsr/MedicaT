@@ -13,9 +13,21 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let userPrefs = UserDefaults.standard
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        
+        let registrado = userPrefs.bool(forKey: "registrado")
+        
+        if registrado {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            
+            let newView = storyboard.instantiateViewController(withIdentifier: "mainMenu")
+            
+            window?.rootViewController = newView
+        }
+        
         // Override point for customization after application launch.
         return true
     }

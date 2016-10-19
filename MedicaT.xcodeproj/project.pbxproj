@@ -13,6 +13,7 @@
 		E957012A1DB80C730051ACED /* MedicaT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E95701281DB80C730051ACED /* MedicaT.xcdatamodeld */; };
 		E957012C1DB80C730051ACED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E957012B1DB80C730051ACED /* Assets.xcassets */; };
 		E957012F1DB80C740051ACED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E957012D1DB80C740051ACED /* LaunchScreen.storyboard */; };
+		E95701391DB817050051ACED /* InformacionPersonalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95701381DB817050051ACED /* InformacionPersonalTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E957012B1DB80C730051ACED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E957012E1DB80C740051ACED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95701301DB80C740051ACED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95701381DB817050051ACED /* InformacionPersonalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InformacionPersonalTableViewController.swift; path = ../InformacionPersonalTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E95701201DB80C730051ACED /* MedicaT */ = {
 			isa = PBXGroup;
 			children = (
+				E95701381DB817050051ACED /* InformacionPersonalTableViewController.swift */,
 				E95701211DB80C730051ACED /* AppDelegate.swift */,
 				E95701231DB80C730051ACED /* ViewController.swift */,
 				E95701251DB80C730051ACED /* Main.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				E95701241DB80C730051ACED /* ViewController.swift in Sources */,
 				E957012A1DB80C730051ACED /* MedicaT.xcdatamodeld in Sources */,
+				E95701391DB817050051ACED /* InformacionPersonalTableViewController.swift in Sources */,
 				E95701221DB80C730051ACED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +305,7 @@
 				E95701351DB80C740051ACED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
